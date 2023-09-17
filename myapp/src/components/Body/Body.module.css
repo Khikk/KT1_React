@@ -1,0 +1,44 @@
+.body_block{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #62D0DF;
+    color:white;
+    height: 610px;
+    width: 1440px;
+
+}
+
+.body_TitlText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+    padding-right: 100px;
+    flex-direction: column;
+}
+
+
+.body_text{
+    font-size: 24px;
+    display: flex;
+    max-width: 580px;
+    height: 270px;
+    line-height: 1.5;
+
+}
+
+
+.body_title{
+    display: flex;
+    margin-right: 235px;
+    margin-bottom: 35px;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+
+.body_picture{
+position: absolute;
+right: 0;
+}

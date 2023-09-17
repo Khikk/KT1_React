@@ -1,0 +1,29 @@
+
+
+.container_picture{
+    position: absolute;
+    left: 0;
+}
+
+.container_alltext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    flex-direction: column;
+    color: rgba(34, 53, 111, 1);
+}
+
+
+.container_title{
+    margin-top: 200px;
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.container_text{
+    width: 680px;
+    height: 215px;
+    font-size: 36px;
+    line-height: 1.5;
+}

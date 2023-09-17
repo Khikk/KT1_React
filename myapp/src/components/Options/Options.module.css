@@ -1,0 +1,29 @@
+
+
+.post_item {
+    display: flex;
+    width: 100%;
+    height: 480px;
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.container_text{
+    width: 228px;
+    height: 72px;
+}
+
+.heading-with-line::before {
+    content: ""; /* Обязательное свойство для псевдоэлемента */
+    display: block; /* Позволяет задать размеры и стили */
+    width: 50px; /* Ширина полоски */
+    height: 4px; /* Высота полоски */
+    background-color: white; /* Цвет полоски */
+    margin-bottom: 20px; /* Отступ между полоской и текстом */
+  }
+  

@@ -1,0 +1,18 @@
+.container_notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    flex-direction: column;
+    color:#22356F;
+    font-size: 24px;
+  }
+
+  .container_text{
+    width: 740px;
+    height: 240px;
+  }
+  
+  .space_btwText{
+    margin-bottom: 35px;
+  }
